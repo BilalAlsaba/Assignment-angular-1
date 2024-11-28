@@ -1,0 +1,10 @@
+h1 {
+    color: #2c3e50;
+}
+
+.body {
+    height: 80vh;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #ffffff;
+}

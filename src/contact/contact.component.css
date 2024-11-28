@@ -1,0 +1,43 @@
+.contact {
+    margin-top: 70px;
+    padding: 25px 0;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: #2C3E50;
+}
+
+h2 , i {
+    color: #2C3E50;
+}
+
+button{
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+label {
+    z-index: 99;
+    top: -30px;
+    color:#1abc9c ;
+    margin-bottom: 7px;
+    transition: .6s top;
+}
+
+input.form-control {
+z-index: 99999;
+}
+input.form-control:focus {
+    box-shadow: none;
+}
+
+input:focus + label{
+    top: -83px;
+}
+.btn:hover {
+    background-color: #1abc9c;
+    color: #ffffff;
+    border-color: #1abc9c;
+}

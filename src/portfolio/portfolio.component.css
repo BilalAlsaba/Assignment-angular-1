@@ -1,0 +1,25 @@
+.portfolio {
+    background-color: #ffff;
+    margin-top: 70px;
+    padding: 70px 0;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: #2C3E50;
+}
+
+.layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+.layer:hover{
+    opacity: 1;
+}
+
+h2 , i {
+    color: #2C3E50;
+}
